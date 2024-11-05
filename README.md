@@ -61,12 +61,49 @@ Removing Duplicates
 - Which region have the most loyal customers?
 
 ### Data Analysis
-```SQL
+Here are some of the codes and features utilized to extract insights from the customer data include the following:
+#### For SQL
+FOR  "which product is the best-selling?"
+```
 Select product, sum(quantity*unitprice) as totalsale
  From [dbo].[LITA+Capstone+Dataset1]
  Group by product
 ```
+what is the overall sales trend?
+```
+Select region, count(*) as NumberOfTransactions
+From [dbo].[LITA+Capstone+Dataset1]
+Group by region
+```
 
+Which region has the highest sales?
+```
+select top 1 product, sum(quantity*unitprice) as totalsales
+From [dbo].[LITA+Capstone+Dataset1]
+Group by product
+Order by totalsales desc
+```
+
+what is the total revenue?
+```
+
+
+```
+
+Who are the Top 5 customer by total sales?
+```
+Select top 5 customer_id, sum(quantity*unitprice) as totalpurchaseAmount
+From [dbo].[LITA+Capstone+Dataset1]
+Group by customer_id
+Order by TotalPurchaseAmount desc
+```
+
+Select region, sum(quantity*unitprice) as totalsales,
+Sum(quantity*unitprice) * 1.0/ (select sum(quantity*unitprice)
+From [dbo].[LITA+Capstone+Dataset1] * 100
+As PercentageOfTotalSales
+From [dbo].[LITA+Capstone+Dataset1]
+Group by region
 
 #### Pivot Summarization
 ##### Total Sales by Product
