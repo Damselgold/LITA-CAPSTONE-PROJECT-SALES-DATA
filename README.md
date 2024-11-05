@@ -7,8 +7,7 @@
 - Data Cleaning and Preparation
 - Exploratory Data Analysis
 - Data Analysis
-- Visualization
-- Result and Conclusion
+- Visualization and Inference
 - Recommendations
 - Limitations
 ----------------------------------------------------------------------------
