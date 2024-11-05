@@ -61,7 +61,11 @@ Removing Duplicates
 - Which region have the most loyal customers?
 
 ### Data Analysis
-#### SQL
+```SQL
+Select product, sum(quantity*unitprice) as totalsale
+ From [dbo].[LITA+Capstone+Dataset1]
+ Group by product
+```
 
 
 #### Pivot Summarization
