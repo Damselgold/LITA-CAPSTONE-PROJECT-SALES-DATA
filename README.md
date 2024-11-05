@@ -1,7 +1,7 @@
 # LITA-CAPSTONE-PROJECT-SALES-DATA
 
 ## Table of Content 
-- Project Overview
+- Overview
 - Data Sources
 - Tools Used
 - Data Cleaning and Preparation
@@ -18,7 +18,17 @@ We seek to gather enough insight to make reasonable decisions which then enable 
 By analyzing various aspect of the sales data, this project aims to uncover trends, make data-driven recommedations, and gain a deeper understanding of the company's performance, ultimately designning an interactive Power BI dashboard for stakeholder decision making.
 
 ### Data Sources
-Sales Data: The primary dataset used for this analysis is the 'LITA CAPSTONE DATASET' provided by The Incubator Hub. This dataset contains information about sales transactions made by the retail store.
+Sales Data: The primary dataset used for this analysis is the 'LITA CAPSTONE DATASET' provided by The Incubator Hub. This dataset contains information about sales transactions made by the retail storeand it  includes the following key columns:
+
+Region: The geographical area where the store operates.
+OrderID : The specific number or tag of an order
+CustomerID : The specific number or tag of a customer
+Product: The list of product available for sale
+Orderdate: The date in which a particular order was made.
+Quantity: The count of available order sold
+Unit Sold: The number of units sold for a given transaction.
+
+
 
 ### Tool Used
 #### Excel
