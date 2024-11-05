@@ -54,7 +54,19 @@ Removing Duplicates
 
 ### Exploratory Data Analysis
 
-### Data Analysis 
+### Data Analysis
+#### Pivot Summarization
+##### Total Sales by Product
+![Screenshot 2024-11-05 234726](https://github.com/user-attachments/assets/85d97ae5-2071-41f9-a026-6cb06e296d53)
+##### Total Sales by Region
+![Screenshot 2024-11-05 235108](https://github.com/user-attachments/assets/aa0c8c66-42d9-426a-a312-61a6d927eec7)
+
+##### Total Sales by Month
+![Screenshot 2024-11-05 235122](https://github.com/user-attachments/assets/e6537df5-8266-4a08-a9b7-95be3e62ff63)
+
+##### Region by Product, Total Sales and Quantity
+![Screenshot 2024-11-05 235305](https://github.com/user-attachments/assets/a920e5ec-c231-4804-89fd-acf7a5b54ec4)
+
 
 ### Visualization
 #### Insight from PowerBI
