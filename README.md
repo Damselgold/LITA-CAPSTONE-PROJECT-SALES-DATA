@@ -53,8 +53,19 @@ Data Cleaning and Formatting
 Removing Duplicates
 
 ### Exploratory Data Analysis
+- which product is the best-selling?
+- what is the overall sales trend?
+- Which region has the highest sales?
+- what is the total revenue?
+- Who are the Top 5 customer by total sales?
+- Which region have the most loyal customers?
 
 ### Data Analysis
+#### SQL
+Select product, sum(quantity*unitprice) as totalsale
+ From [dbo].[LITA+Capstone+Dataset1]
+ Group by product
+
 #### Pivot Summarization
 ##### Total Sales by Product
 ![Screenshot 2024-11-05 234726](https://github.com/user-attachments/assets/85d97ae5-2071-41f9-a026-6cb06e296d53)
