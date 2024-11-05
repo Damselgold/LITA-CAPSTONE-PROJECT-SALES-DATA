@@ -57,6 +57,9 @@ Removing Duplicates
 ### Data Analysis 
 
 ### Visualization
+#### Insight from PowerBI
+![Screenshot 2024-11-05 234001](https://github.com/user-attachments/assets/3401b836-d70e-47e7-9d72-a78d379a42ed)
+
 
 ### Result and Conclusion
 
