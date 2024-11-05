@@ -86,8 +86,9 @@ Order by totalsales desc
 
 what is the total revenue?
 ```
-
-
+SELECT Product, SUM(Total_Sales) AS TotalRevenue
+FROM [dbo].[LITA+Capstone+Dataset1]
+GROUP BY Product
 ```
 
 Who are the Top 5 customer by total sales?
@@ -98,12 +99,14 @@ Group by customer_id
 Order by TotalPurchaseAmount desc
 ```
 
-Select region, sum(quantity*unitprice) as totalsales,
-Sum(quantity*unitprice) * 1.0/ (select sum(quantity*unitprice)
-From [dbo].[LITA+Capstone+Dataset1] * 100
-As PercentageOfTotalSales
-From [dbo].[LITA+Capstone+Dataset1]
-Group by region
+To calculate the percentage of total sales contributed by each region. 
+```
+With Region As(
+ Select Region, sum (Total_Sales) as SalesFromTable from [dbo].[LITA+Capstone+Dataset1]
+ Group by Region)
+ Select Region, (SalesFromTable * 100.0 / (Select sum(Total_Sales) from [dbo].[LITA+Capstone+Dataset1])) as SalesPercentage
+ from Region
+```
 
 #### Pivot Summarization
 ##### Total Sales by Product
