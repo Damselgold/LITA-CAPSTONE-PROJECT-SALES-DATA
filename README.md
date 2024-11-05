@@ -39,8 +39,13 @@ For Sharing insight about the project
 ### Data Cleaning and Preparation
 In the initial Preparation phase i performed the following tasks
 Data loading and inspection
+Handling Missing Variables
 Data Cleaning and Formatting
 Removing Duplicates
+
+### Exploratory Data Analysis
+
+### Data Analysis 
 
 ### Visualization
 
