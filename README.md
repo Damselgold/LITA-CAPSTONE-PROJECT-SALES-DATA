@@ -62,9 +62,7 @@ Removing Duplicates
 
 ### Data Analysis
 #### SQL
-Select product, sum(quantity*unitprice) as totalsale
- From [dbo].[LITA+Capstone+Dataset1]
- Group by product
+
 
 #### Pivot Summarization
 ##### Total Sales by Product
